@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'PersonaWebRtc'
   s.version      = '2.14.0'
-  s.summary      = 'Persona Inquiry Nfc SDK'
+  s.summary      = 'Persona Inquiry WebRtc SDK'
   s.homepage     = 'https://github.com/persona-id/inquiry-ios-nfc'
   s.author       = 'Persona Identities, Inc.'
   s.license      = { :type => 'Persona License', :file => 'LICENSE' }
