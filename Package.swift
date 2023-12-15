@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-  name: "PersonaNfc",
+  name: "PersonaWebRtc",
   platforms: [.iOS(.v11)],
   products: [
     .library(
-      name: "PersonaNfc",
-      targets: ["PersonaNfc"]
+      name: "PersonaWebRtc",
+      targets: ["PersonaWebRtc"]
     )
   ],
   targets: [
     .binaryTarget(
-      name: "PersonaNfc",
-      url: "https://github.com/persona-id/inquiry-ios-nfc/releases/download/2.14.0/PersonaNfc.xcframework.zip",
-      checksum: "b420a5b4c681e8a78df2f7dd674fe4a6c1ec0f9f15556208244e9bd3e1af9b61"
+      name: "PersonaWebRtc",
+      url: "https://github.com/persona-id/inquiry-ios-webrtc/releases/download/2.14.0/PersonaWebRtc.xcframework.zip",
+      checksum: "f7662106ff238cb2e7d866b41b1656c542542a19692ae1e5060cbcfca2ac6372"
     )
   ]
 )
