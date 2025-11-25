@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaWebRtc",
-      url: "https://github.com/persona-id/inquiry-ios-webrtc/releases/download/2.34.0/PersonaWebRtc.xcframework.zip",
-      checksum: "2574093557d226c2f66040d6953aa954610bff279052eacd075652b9e1d96fdd"
+      url: "https://github.com/persona-id/inquiry-ios-webrtc/releases/download/2.34.1/PersonaWebRtc.xcframework.zip",
+      checksum: "b2f8444b1e15183bd0a215252a049fc1e542995bcb6b2d402734e0f5001437f2"
     )
   ]
 )
