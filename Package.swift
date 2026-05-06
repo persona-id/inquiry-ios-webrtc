@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaWebRtc",
-      url: "https://github.com/persona-id/inquiry-ios-webrtc/releases/download/2.46.0/PersonaWebRtc.xcframework.zip",
-      checksum: "0285f2123672e2eb23ae91eef9eaf65528c54403a04f2dbbe1b83a175da1b537"
+      url: "https://github.com/persona-id/inquiry-ios-webrtc/releases/download/2.47.0-RC/PersonaWebRtc.xcframework.zip",
+      checksum: "7f42ab03f0db51cf8165efabc85506ca5daa41c604174a59cbddc5d8dca9dbae"
     )
   ]
 )
