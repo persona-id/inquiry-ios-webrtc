@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "PersonaWebRtc",
-  platforms: [.iOS(.v13)],
+  platforms: [.iOS("15.0")],
   products: [
     .library(
       name: "PersonaWebRtc",
@@ -13,8 +13,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "PersonaWebRtc",
-      url: "https://github.com/persona-id/inquiry-ios-webrtc/releases/download/2.52.1/PersonaWebRtc.xcframework.zip",
-      checksum: "3d23553f7aa10835082adeedf4b2e1eee5060381a022b7d790d8a4a288327679"
+      url: "https://github.com/persona-id/inquiry-ios-webrtc/releases/download/3.5.1-RC/PersonaWebRtc.xcframework.zip",
+      checksum: "d436cb46e11d920e2e03b01f1a50fb4899ed514c74f5acc5907427750c40771a"
     )
   ]
 )
