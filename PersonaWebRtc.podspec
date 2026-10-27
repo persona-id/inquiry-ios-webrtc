@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name         = 'PersonaWebRtc'
-  s.version      = '2.56.0'
+  s.version      = '4.0.2-beta.1'
   s.summary      = 'Persona Inquiry WebRtc SDK'
   s.homepage     = 'https://github.com/persona-id/inquiry-ios-webrtc'
   s.author       = 'Persona Identities, Inc.'
   s.license      = { :type => 'Persona License', :file => 'LICENSE' }
   s.platform     = 'ios'
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '15.0'
 
-  s.source       = { :http => 'https://github.com/persona-id/inquiry-ios-webrtc/releases/download/2.56.0/PersonaWebRtc.zip' }
+  s.source       = { :http => 'https://storage.googleapis.com/sdk.withpersona.com/ios/v2/releases/4.0.2-beta.1/PersonaWebRtc.zip' }
   s.vendored_frameworks = 'PersonaWebRtc.xcframework'
 
   # 1.7 is needed for `swift_versions` support
